@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Diogo\Documents\UNIVERSIDADE\LSD\GUIÃO6\Parte2\simulation\modelsim
+Ebinudcntenrst4
+Z1 w1428665059
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Diogo\Documents\UNIVERSIDADE\LSD\GUIÃO6\Parte2\simulation\modelsim
+Z6 8C:/Users/Diogo/Documents/UNIVERSIDADE/LSD/GUIÃO6/Parte2/BinUDCntEnRst4.vhd
+Z7 FC:/Users/Diogo/Documents/UNIVERSIDADE/LSD/GUIÃO6/Parte2/BinUDCntEnRst4.vhd
+l0
+L5
+VU>aWo_c]^hR>K9Gh1J2LH3
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1428665422.021000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Diogo/Documents/UNIVERSIDADE/LSD/GUIÃO6/Parte2/BinUDCntEnRst4.vhd|
+Z11 !s107 C:/Users/Diogo/Documents/UNIVERSIDADE/LSD/GUIÃO6/Parte2/BinUDCntEnRst4.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 bIonIVWU_WASLTJ<LSmzi3
+!i10b 1
+Artl
+R2
+R3
+R4
+Z14 DEx4 work 14 binudcntenrst4 0 22 U>aWo_c]^hR>K9Gh1J2LH3
+l18
+L14
+VbB3Z19E`kLn7e57HEnaVE1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 B<bjS1<e5;;?DdF>DUHXD0
+!i10b 1
+Ebinudcntenrst8tb
+Z15 w1428665008
+R3
+R4
+R5
+Z16 8C:/Users/Diogo/Documents/UNIVERSIDADE/LSD/GUIÃO6/Parte2/BinUDCntEnRst4_test.vhd
+Z17 FC:/Users/Diogo/Documents/UNIVERSIDADE/LSD/GUIÃO6/Parte2/BinUDCntEnRst4_test.vhd
+l0
+L4
+V5Yj2zmBcK:]eH@=?Yni]J2
+!s100 @je<^4m1CRnnj2QOTP;gF3
+R8
+32
+!i10b 1
+Z18 !s108 1428665434.283000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/Diogo/Documents/UNIVERSIDADE/LSD/GUIÃO6/Parte2/BinUDCntEnRst4_test.vhd|
+Z20 !s107 C:/Users/Diogo/Documents/UNIVERSIDADE/LSD/GUIÃO6/Parte2/BinUDCntEnRst4_test.vhd|
+Z21 o-work work -O0
+R13
+Astimulus
+R2
+R14
+R3
+R4
+DEx4 work 16 binudcntenrst8tb 0 22 5Yj2zmBcK:]eH@=?Yni]J2
+l15
+L6
+VPnA=dhRQL]^_9EkYOUCAH2
+!s100 1XHTa?h?f<P:DMG@A9E;:0
+R8
+32
+!i10b 1
+R18
+R19
+R20
+R21
+R13

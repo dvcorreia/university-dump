@@ -1,0 +1,102 @@
+|ShiftRegister_Demo
+KEY[3] => shiftregistern:shiftRegisterN.si
+LEDR[0] <= shiftregistern:shiftRegisterN.dataOut[0]
+LEDR[1] <= shiftregistern:shiftRegisterN.dataOut[1]
+LEDR[2] <= shiftregistern:shiftRegisterN.dataOut[2]
+LEDR[3] <= shiftregistern:shiftRegisterN.dataOut[3]
+LEDR[4] <= shiftregistern:shiftRegisterN.dataOut[4]
+LEDR[5] <= shiftregistern:shiftRegisterN.dataOut[5]
+LEDR[6] <= shiftregistern:shiftRegisterN.dataOut[6]
+LEDR[7] <= shiftregistern:shiftRegisterN.dataOut[7]
+LEDR[8] <= shiftregistern:shiftRegisterN.dataOut[8]
+LEDR[9] <= shiftregistern:shiftRegisterN.dataOut[9]
+LEDR[10] <= shiftregistern:shiftRegisterN.dataOut[10]
+LEDR[11] <= shiftregistern:shiftRegisterN.dataOut[11]
+LEDR[12] <= shiftregistern:shiftRegisterN.dataOut[12]
+LEDR[13] <= shiftregistern:shiftRegisterN.dataOut[13]
+LEDR[14] <= shiftregistern:shiftRegisterN.dataOut[14]
+LEDR[15] <= shiftregistern:shiftRegisterN.dataOut[15]
+LEDR[16] <= shiftregistern:shiftRegisterN.dataOut[16]
+LEDR[17] <= shiftregistern:shiftRegisterN.dataOut[17]
+CLOCK_50 => clkdividern:fredivider.clkIn
+LEDG[0] <= clkdividern:fredivider.clkOut
+
+
+|ShiftRegister_Demo|ClkDividerN:fredivider
+clkIn => s_divCounter[0].CLK
+clkIn => s_divCounter[1].CLK
+clkIn => s_divCounter[2].CLK
+clkIn => s_divCounter[3].CLK
+clkIn => s_divCounter[4].CLK
+clkIn => s_divCounter[5].CLK
+clkIn => s_divCounter[6].CLK
+clkIn => s_divCounter[7].CLK
+clkIn => s_divCounter[8].CLK
+clkIn => s_divCounter[9].CLK
+clkIn => s_divCounter[10].CLK
+clkIn => s_divCounter[11].CLK
+clkIn => s_divCounter[12].CLK
+clkIn => s_divCounter[13].CLK
+clkIn => s_divCounter[14].CLK
+clkIn => s_divCounter[15].CLK
+clkIn => s_divCounter[16].CLK
+clkIn => s_divCounter[17].CLK
+clkIn => s_divCounter[18].CLK
+clkIn => s_divCounter[19].CLK
+clkIn => s_divCounter[20].CLK
+clkIn => s_divCounter[21].CLK
+clkIn => s_divCounter[22].CLK
+clkIn => s_divCounter[23].CLK
+clkIn => s_divCounter[24].CLK
+clkIn => s_divCounter[25].CLK
+clkIn => s_divCounter[26].CLK
+clkIn => s_divCounter[27].CLK
+clkIn => s_divCounter[28].CLK
+clkIn => s_divCounter[29].CLK
+clkIn => s_divCounter[30].CLK
+clkIn => s_divCounter[31].CLK
+clkIn => clkOut~reg0.CLK
+clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ShiftRegister_Demo|ShiftRegisterN:shiftRegisterN
+clk => s_shiftReg[0].CLK
+clk => s_shiftReg[1].CLK
+clk => s_shiftReg[2].CLK
+clk => s_shiftReg[3].CLK
+clk => s_shiftReg[4].CLK
+clk => s_shiftReg[5].CLK
+clk => s_shiftReg[6].CLK
+clk => s_shiftReg[7].CLK
+clk => s_shiftReg[8].CLK
+clk => s_shiftReg[9].CLK
+clk => s_shiftReg[10].CLK
+clk => s_shiftReg[11].CLK
+clk => s_shiftReg[12].CLK
+clk => s_shiftReg[13].CLK
+clk => s_shiftReg[14].CLK
+clk => s_shiftReg[15].CLK
+clk => s_shiftReg[16].CLK
+clk => s_shiftReg[17].CLK
+so <= comb.DB_MAX_OUTPUT_PORT_TYPE
+si => s_shiftReg[0].DATAIN
+dataOut[0] <= s_shiftReg[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= s_shiftReg[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= s_shiftReg[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= s_shiftReg[3].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[4] <= s_shiftReg[4].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[5] <= s_shiftReg[5].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[6] <= s_shiftReg[6].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[7] <= s_shiftReg[7].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[8] <= s_shiftReg[8].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[9] <= s_shiftReg[9].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[10] <= s_shiftReg[10].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[11] <= s_shiftReg[11].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[12] <= s_shiftReg[12].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[13] <= s_shiftReg[13].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[14] <= s_shiftReg[14].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[15] <= s_shiftReg[15].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[16] <= s_shiftReg[16].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[17] <= s_shiftReg[17].DB_MAX_OUTPUT_PORT_TYPE
+
+

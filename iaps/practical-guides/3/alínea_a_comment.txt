@@ -1,0 +1,3 @@
+As fotos são RGB pelo que são guardadas 3 informações:
+r (vermelho) , g (verde) e b (azul) que juntas formam
+um array tri-dimensional.
