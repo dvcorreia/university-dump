@@ -1,0 +1,8 @@
+*.eps
+*.png
+*.csv
+plots
+tables
+.vscode
+.DS_Store
+*.m~
